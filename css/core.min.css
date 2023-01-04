@@ -550,7 +550,7 @@ pre code {
 }
 
 .nav-bar .logo img.dark {
-  margin-top: 12px;
+  margin-top: 0;
 }
 
 .nav-bar .logo-right {
@@ -13277,4 +13277,8 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
 /* Extras  */
 .logos-1 a > img {
   max-width: 65%;
+}
+
+.header .logo-inner img {
+  background-color: white;
 }
